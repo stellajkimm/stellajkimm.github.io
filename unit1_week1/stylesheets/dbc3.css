@@ -1,6 +1,11 @@
 body {
 	font-family: "georgia";
 	font-size: 12px;
+	background-image: url('http://images.fanpop.com/images/image_uploads/asleep-calvin--26-hobbes-318680_1024_768.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 30%;
+	background-attachment: fixed;
 }
 
 div {
@@ -8,7 +13,6 @@ div {
 	display: inline-block;
 	width: 300px;
 	padding: 20px;
-	margin: 10px;
 	vertical-align: top;
 }
 
@@ -17,16 +21,16 @@ h5 {
 }
 
 a:link {
-	color: black;
+	color: #ff9900;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #c0c0c0;
+	color: #FFB84D;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #6C2DC7;
+	color: #ff0000;
 	text-decoration: none;
 }
