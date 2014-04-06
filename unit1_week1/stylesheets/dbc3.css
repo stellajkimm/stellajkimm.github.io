@@ -1,8 +1,7 @@
 body {
 	font-family: "georgia";
 	font-size: 12px;
-	background-image: url('http://images.fanpop.com/images/image_uploads/asleep-calvin--26-hobbes-318680_1024_768.jpg');
-	background-repeat: no-repeat;
+	background: url('images/calvinhobbesnapping.jpg') no-repeat;
 	background-position: bottom right;
 	background-size: 30%;
 	background-attachment: fixed;
