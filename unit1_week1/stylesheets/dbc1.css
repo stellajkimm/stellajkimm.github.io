@@ -1,0 +1,31 @@
+body {
+	font-family: "Georgia";
+	background-image: url('http://cdn.3oneseven.com/wp-content/uploads/HLIC/dancing-calvin.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 50%;
+	background-attachment: fixed;
+}
+
+p {
+	font-size: 11px;
+}
+
+.purple {
+	color: #6C2DC7;
+}
+
+#header {
+	color: #C0C0C0;
+	text-align: center;
+}
+
+img {
+	height: 200px;
+	width: auto;
+	display: inline-block;
+}
+
+div {
+	text-align: center;
+}
