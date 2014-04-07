@@ -1,0 +1,111 @@
+body {
+	font-family: "Garamound";
+/*	background-image: url('http://cdn.3oneseven.com/wp-content/uploads/HLIC/dancing-calvin.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 50%;
+	background-attachment: fixed; */
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+p {
+	font-size: 12px;
+}
+header {
+	color: black;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	padding-top: 10px;
+	z-index:2;
+}
+
+header h1 {
+	float: left;
+	margin-left: 10px;
+}
+
+.quotes {
+	float: right;
+	font-size: 12px;
+	list-style-type: none;
+	padding-right: 20px; 
+	padding-bottom: 5px;
+}
+
+nav {
+	clear: both;
+	text-align: right;
+	width: 100%;
+	background-color: black;
+	height: 24px;
+}
+
+nav ul li {
+	display: inline;
+	padding: 8px 20px;
+	border-left: 2px solid white;
+	font-size: 13px;
+}
+
+.sidebar {
+	position: fixed;
+	border: 3px solid black;
+	padding: 10px;
+	float: left;
+	margin: 130px 13px;
+	font-size: 14px;
+	width: 25%;
+}
+.middle {
+	text-align: center;
+	float: right;
+	width: 65%;
+	margin-top: 120px;
+}
+
+.cursive {
+	font-family: cursive;
+}
+
+img {
+	width: 500px;
+}
+
+.relative {
+	width: 300px;
+	position: relative;
+	bottom: 80px;
+	left: 40px;
+	background-color: white;
+	opacity: 0.6;
+	border: 1px solid black;
+}
+
+footer {
+	border: 1px solid black;
+	clear: both;
+	height: 24px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+footer p {
+	margin-top: 5px;
+}
+a:link {
+	color: #C0C0C0;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #c0c0c0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #C285FF;
+	text-decoration: none;
+}
