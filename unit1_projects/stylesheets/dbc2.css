@@ -11,7 +11,6 @@ header {
 	background: url('https://scontent-b-lga.xx.fbcdn.net/hphotos-prn1/t31.0-8/53659_10101938577786393_613610407_o.jpg') no-repeat;
 	background-size: 100% auto;
 	background-position: bottom;
-	z-index:2;
 	height: 300px;
 	width: 100%;
 }
@@ -21,7 +20,7 @@ header h2 {
 	opacity: .75;
 	color: white;
 	width: 50%;
-	margin: 10% 25%;
+	margin: 10% 22%;
 	padding: 30px;
 	position: absolute;
 }
