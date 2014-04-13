@@ -1,0 +1,27 @@
+.block {
+	display: block;
+	width: 200px;
+}
+
+.inline {
+	display: inline;
+	width: 200px;
+}
+
+.inline_block {
+	display: inline-block;
+	width: 200px;
+}
+
+.code {
+	margin: 10px;
+	background-color: gray;
+	padding: 10px;
+}
+
+.green {
+	background-color: green;
+}
+.yellow {
+	background-color: yellow;
+}
