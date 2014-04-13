@@ -1,0 +1,17 @@
+.cursive {
+	font-family: cursive;
+}
+
+img {
+	width: 500px;
+}
+
+.relative {
+	width: 300px;
+	position: relative;
+	opacity: 0.6;
+	border: 1px solid black;
+	bottom: 80px;
+	left: 40px;
+	background-color: white;
+}

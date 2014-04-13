@@ -47,6 +47,9 @@ aside {
 /*	background: url('http://3.bp.blogspot.com/-vw9gVjjdXsA/US7l2Bv8oWI/AAAAAAAACrQ/HpKsVLk7tZY/s1600/daisies+1.jpg') no-repeat;
 	background-size: auto 100%;
 */
+	background-color: black;
+	padding: 15px;
+	color: white;
 	float: left;
 	margin: 20px 40px;
 	font-size: 13px;
@@ -62,20 +65,6 @@ section {
 	background-color: white;
 }
 
-img {
-	width: 500px;
-}
-/*
-.relative {
-	width: 300px;
-	position: relative;
-	bottom: 80px;
-	left: 40px;
-	background-color: white;
-	opacity: 0.6;
-	border: 1px solid black;
-}
-*/
 
 footer {
 	clear: both;
