@@ -1,78 +1,72 @@
 body {
-	font-family: "Garamound";
-/*	background-image: url('http://cdn.3oneseven.com/wp-content/uploads/HLIC/dancing-calvin.jpg');
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-size: 50%;
-	background-attachment: fixed; */
+	font-family: arial;
+	background-color: white;
 	margin: 0px;
 	padding-bottom: 10px;
 }
 
-p {
-	font-size: 12px;
-}
 header {
+	text-align: center;
 	color: black;
-	position: fixed;
-	width: 100%;
-	background-color: white;
-	padding-top: 10px;
+	background: url('https://scontent-b-lga.xx.fbcdn.net/hphotos-prn1/t31.0-8/53659_10101938577786393_613610407_o.jpg') no-repeat;
+	background-size: 100% auto;
+	background-position: bottom;
 	z-index:2;
+	height: 300px;
+	width: 100%;
 }
 
-header h1 {
-	float: left;
-	margin-left: 10px;
-}
-
-.quotes {
-	float: right;
-	font-size: 12px;
-	list-style-type: none;
-	padding-right: 20px; 
-	padding-bottom: 5px;
+header h2 {
+	background-color: black;
+	opacity: .75;
+	color: white;
+	width: 50%;
+	margin: 10% 25%;
+	padding: 30px;
+	position: absolute;
 }
 
 nav {
-	clear: both;
-	text-align: right;
+	text-align: center;
 	width: 100%;
 	background-color: black;
-	height: 24px;
+	height: 35px;
+}
+
+nav ul {
+	padding-top: 8px;
 }
 
 nav ul li {
 	display: inline;
-	padding: 8px 20px;
-	border-left: 2px solid white;
+	padding: 8px 50px;
 	font-size: 13px;
+	color: white;
 }
 
-.sidebar {
-	position: fixed;
-	border: 3px solid black;
-	padding: 10px;
+aside {
+/*	background: url('http://3.bp.blogspot.com/-vw9gVjjdXsA/US7l2Bv8oWI/AAAAAAAACrQ/HpKsVLk7tZY/s1600/daisies+1.jpg') no-repeat;
+	background-size: auto 100%;
+*/
 	float: left;
-	margin: 130px 13px;
-	font-size: 14px;
-	width: 25%;
+	margin: 20px 40px;
+	font-size: 13px;
+	width: 20%;
 }
-.middle {
+
+section {
 	text-align: center;
 	float: right;
-	width: 65%;
-	margin-top: 120px;
-}
-
-.cursive {
-	font-family: cursive;
+	width: 52%;
+	margin-right: 15%;
+	margin-bottom: 20px;
+	background-color: white;
 }
 
 img {
 	width: 500px;
 }
-
+/*
 .relative {
 	width: 300px;
 	position: relative;
@@ -82,26 +76,29 @@ img {
 	opacity: 0.6;
 	border: 1px solid black;
 }
+*/
 
 footer {
-	border: 1px solid black;
 	clear: both;
-	height: 24px;
 	text-align: center;
 	background-color: black;
 	color: white;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 0px;
 }
 
-footer p {
-	margin-top: 5px;
+footer h5 {
+	padding-top: 13px;
 }
+
 a:link {
-	color: #C0C0C0;
+	color: white;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #c0c0c0;
+	color: white;
 	text-decoration: none;
 }
 
