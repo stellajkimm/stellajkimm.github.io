@@ -1,0 +1,24 @@
+header {
+    text-align:center;
+    border:1px solid green;
+}
+
+p {
+    text-align:center;
+    color:blue; 
+    width: 250px;  
+}
+
+body {
+	background-color:green;
+}    
+
+.yellow{
+	background-color:yellow;
+	float:left;
+}
+
+.orange {
+	background-color:orange;
+	float:right;
+}
