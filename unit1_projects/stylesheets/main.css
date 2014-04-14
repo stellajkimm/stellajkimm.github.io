@@ -69,6 +69,7 @@ section {
 	background-color: white;
 }
 
+
 section h3 {
 	text-align: center;
 }
@@ -101,3 +102,13 @@ a:hover {
 	color: #C285FF;
 	text-decoration: none;
 }
+
+section a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+
