@@ -32,3 +32,14 @@ It is an image.
 * Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the lowest hanging fruit to optimize the website?  How many kilobytes of data can be eliminated?
 
 I know you have to use Pagespeed to find what can be done to optimize the website but I still don't understand how to find out what is the lowest hanging fruit and how many kilbytes of data can be eliminated.  I am doing a pairing session with one person in my group tomorrow so I will see if he can help me.
+
+
+--
+
+Screen Shots:
+
+https://github.com/stellajkimm/stellajkimm.github.io/blob/master/unit1_projects/week_2/1_Chrome_Dev_Tools/Screen%20Shot%202014-04-10%20at%2011.06.50%20PM.png
+
+https://github.com/stellajkimm/stellajkimm.github.io/blob/master/unit1_projects/week_2/1_Chrome_Dev_Tools/Screen%20Shot%202014-04-10%20at%2011.26.59%20PM.png
+
+I don't know if this works.  Please let me know.
