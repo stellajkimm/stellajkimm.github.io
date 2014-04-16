@@ -15,53 +15,65 @@ var terah = {
 /* Pseudocode Section - write pseudocode for each challenge below.
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
-
+set variable to adam to empty array
 2. Give adam a name property with the value "Adam".
-
+set name in adam to the value "Adam"
 3. Add a spouse property to terah and assign it the value of adam.
-
+set spouse to "adam" in object terah
 4. Change the value of the terah weight property to 125.
-
+set weight in object terah to 125
 5. Remove the eyeColor property from terah.
-
+delete eyeColor from terah.
 6. Add a spouse property to adam and assign it the value of terah.
-
+set spouse to "terah" in object adam
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
-
+set children property to empty array for object terah.
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
-
+set new property carson for children and give it an empty array.
+set property name as "Carson" for object carson.
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
-
+set new property carter for children and give it an empty array.
+set property name as "Carter" for object carter.
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
-
+set new property colton for children and give it an empty array.
+set property name as "Colton" for object colton.
 11. Add a children property to adam and assign it the value of terah children.
-
+set property children in adam array to property children in terah array.
 
 */
 
 // __________________________________________
 // Write your code below.
 
-
-
-
-
-
-
+var adam = [];
+adam.name = "Adam";
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+terah.children = [];
+terah.children.carson = [];
+terah.children.carson.name = "Carson";
+terah.children.carter = [];
+terah.children.carter.name = "Carter";
+terah.children.colton = [];
+terah.children.colton.name = "Colton";
+adam.children = terah.children;
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
 // 
-// 
-// 
-// 
-// 
-// 
-
+// I still don't understand psuedocoding that much.  I almost felt like the psuedocode i wrote was
+// just rephrasing the question.  I need feedback on this.  I am having a pairing session with one of my
+// accountability partners so I will review this.  The only code I didn't know was how to remove a property 
+// that wasn't in the beginning or end of the array.  I researched this and found "delete" as the solution.
+// I enjoyed this because it gave me more practice with the terminal.  One thing I don't know about the terminal
+// is how to exit the thinking process of the terminal if I typed somethign wrong.  I will go to office hours for this.
+// This challenge was very similar to the previous challenge.  I think it is a good exercise.
 
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
