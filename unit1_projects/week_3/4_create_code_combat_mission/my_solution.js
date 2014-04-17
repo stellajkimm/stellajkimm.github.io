@@ -68,7 +68,7 @@ this.say("Hooray!");
 
 // Refactored Code
 
-var this = "Tharin";
+var this // "Tharin";
 var villager1 = "Smith";
 var villager2 = "Steve";
 var asking = true;
