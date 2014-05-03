@@ -8,8 +8,18 @@
 # Input:  array of names
 # Output:  groups of names of 4 for 3 different units
 # Steps: 
-# define an array of names with the list of people in cohort
-# verify if length of array is divisible by 4
+# define a method named acc_group that takes an argument names
+# shuffle names
+# slice names array into array groups of 4 and rename the whole array groups
+# if the length of names has a module of 1, push the item in the last group to the first group and
+# delete the last array in groups
+# if the length of names has a module of 2, push the first item in the last group to the first array
+# and the second item in the last group to the second array and delete the last array in groups
+# if the length of names has a module of 3, push the first item in the last group to the first array
+# and the second item in the last group to the second array and the third item in the last group to
+# the third array and delete the last array in groups.
+# define a variable i = 1 as a counter
+# using a while loop, puts the group number and the names of the people in each group
 
 
 # 3. Initial Solution
@@ -77,6 +87,7 @@ end
 # driver tests from the earlier challenge that tests if it is a method and there is 1 argument.
 # I also know there are more things I can do with this code.  For example, I can try to make sure that
 # students aren't in the same accountability group each unit.  THis is something I need to work on as well.
-# I'm sorry that my solution isn't complete, but I will try to fix this.
+# I'm sorry that my solution isn't complete, but I will try to fix this.  Another consideration is that
+# if the number of people in the cohort is a small number....
 
 

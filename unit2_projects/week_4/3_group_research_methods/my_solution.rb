@@ -50,16 +50,20 @@ end
 
 # Person 4
 def my_array_deletion_method(source, thing_to_delete)
-  #Your code here!
+  source.each do |x|
+  	if x.include? thing_to_delete
+  		source.delete(x)
+  	end
+  end
 end
 
 def my_hash_deletion_method(source, thing_to_delete)
-  #Your code here!
+	source.delete_if { |key, value| key == thing_to_delete }
 end
 
 # Identify and describe the ruby method you implemented. 
 # 
-#
+# I used the delete method and include for the array and delete_if method for the hash
 #
 
 
@@ -79,7 +83,9 @@ p my_hash_deletion_method(my_family_pets_ages, "George") == {"Evi" => 8, "Hoobie
 
 # Reflect!
 # 
-# 
+# ruby-doc.org is extremely useful and there are so many methods and ways you can
+# do the same thing.  There will always probably be an easier and efficient way to write
+# something so taking time to refract is really beneficial.
 # 
 # 
 # 
