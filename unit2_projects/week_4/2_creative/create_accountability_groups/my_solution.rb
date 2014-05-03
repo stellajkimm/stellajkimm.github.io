@@ -75,5 +75,8 @@ end
 # but i cant think of it right now.  I need to go back to this.  Also, I am still really confused
 # as to how to write driver tests.  I will get back to this as well.  For now, I only copied the
 # driver tests from the earlier challenge that tests if it is a method and there is 1 argument.
+# I also know there are more things I can do with this code.  For example, I can try to make sure that
+# students aren't in the same accountability group each unit.  THis is something I need to work on as well.
+# I'm sorry that my solution isn't complete, but I will try to fix this.
 
 

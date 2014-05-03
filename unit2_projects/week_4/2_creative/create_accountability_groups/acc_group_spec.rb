@@ -12,12 +12,4 @@ describe 'acc_group' do
   it "requires a single argument" do
     method(:acc_group).arity.should eq 1
   end
-
-  # it "returns the correct total of array 1" do
-  #   total(array_1).should eq 27
-  # end
-
-  # it "returns the correct total of array 2" do
-  #   total(array_2).should eq 43
-  # end
 end
