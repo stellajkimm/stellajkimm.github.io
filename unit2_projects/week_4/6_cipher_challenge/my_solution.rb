@@ -119,3 +119,6 @@ p north_korean_cipher("ger^wsqifshc*nywx^kix^qi&10000*fekw@sj$gssp%vergl@hsvmxsw
 # but this is just how I thought of it.  I couldn't think of a better way to go to shift characters.  Either way,
 # the code works.  Ultimately just used ruby-doc.org to help me out with methods I can use.  This challenge was pretty
 # fun and it's important to know that there is always probably a better way to write something with less coding.
+#
+# I didn't work with anyone on this challenge because I am a little behind (Dev Bootcamp should know this because I told you
+# # guys I am going out of the country for 2 wks) and actually no one in my accountability group contacted me anyway.
