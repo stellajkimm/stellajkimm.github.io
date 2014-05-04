@@ -6,11 +6,11 @@ Responsive Web Design (RWD) is a Web design approach aimed at crafting sites to 
 
 * How do you think smartphones and tablets have changed web design? How do you think new technology will change web design in the future?
 
-Smartphones and tablets changed web design because there are so many different resolutions nowadays since smartphones and tablets come in all different sizes so developers had to adapt to this to make their websites look good in every situation.  In the future, there will definitely be some 3D stuff going on.  That'll blow my mind.
+Smartphones and tablets changed web design because there are so many different resolutions nowadays since smartphones and tablets come in all different sizes so developers had to adapt to this to make their websites look good in every situation.  In the future, there will definitely be some 3D stuff going on.  That'll blow my mind.  Also nowadays they're creating things like Google Glass and even contacts, etc.  That's going to be a huge step forward.
 
 * How do you think visually impaired people use the web? Can they? Should we design and development for them?
 
-Hmm.  That's a good question.  There has to be some sort of audible function to it.  We could definitely design and develop for them.  I just have to think a little longer how it would work.
+Hmm.  That's a good question.  There has to be some sort of audible function to it.  We could definitely design and develop for them.  I just have to think a little longer how it would work.  I'll get back to this.
 
 * What ideas and concepts have resonated with you when learning about the web and design? What seems stupid or doesn't make sense?
 
