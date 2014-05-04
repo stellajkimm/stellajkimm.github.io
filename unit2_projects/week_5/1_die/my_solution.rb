@@ -47,20 +47,16 @@ end
 # 1. DRIVER TESTS GO BELOW THIS LINE
 # 
 d1 = Die.new(7)
-d2 = Die.new(400)
 
+p 'sides returns the number of sides given on initialization' 
 p d1.sides == 7
-p d2.sides == 400
 
+p 'roll returns a random number between 1 and the number of sides'
 p d1.roll >= 1 && d1.roll <= 7
-p d2.roll >= 1 && d2.roll <= 400
 
-# not really sure how to do these tests:
-# d3 = Die.new(-1)
-# d4 = Die.new(0)
+p 'initialize expects a single argument'
+p d1.instance_method(:initialize).arity == 1
 
-# p d3.sides == 
-# p d4.sides == 
 
 
 

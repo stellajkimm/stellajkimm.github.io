@@ -38,17 +38,17 @@ end
 # 1. DRIVER TESTS GO BELOW THIS LINE
 
 d1 = Die.new(["A", "B", "C"])
-d2 = Die.new([1,2,3,4,5,6])
-d3 = Die.new(["Stella", "Jade", "Erica", "Stephanie", "Soo", "Jennifer"])
 
+p 'returns the number of sides given on initialization'
 p d1.sides == 3
-p d2.sides == 6
-p d2.sides == 6
 
+p 'returns a roll that is included in labels'
 p d1.labels.include? d1.roll
-p d2.labels.include? d2.roll
-p d3.labels.include? d3.roll
 
+p 'returns every possible letter for a sufficiently large number of rolls'
+  possible_values = (d1.labels).shuffle.first(15)
+  output = Array.new(10000) { d1.roll }.uniq
+p output.sort == possible_values.sort
 
 # 5. Reflection 
 # 
