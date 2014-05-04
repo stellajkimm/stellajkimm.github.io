@@ -29,10 +29,10 @@
 	<section>
 		<h3>Week 4:  Arrays vs. Hashes</h3>
 		<p>In Ruby, there are two ways to store and organize collections of information:  Arrays and Hashes.  Arrays are collections of any type of object (integer, string, floating point number, etc) and are ordered and indexed by integers.  Hashes are also collections of any type of objects but are indexed by arbitrary keys.</p>
-		<p>Example of an Array:<br><xmp>array = [1,2,3,4,5]</xmp></p>
-		<p>Example of a Hash:<br><xmp>hash = { "name" => "Stella", "age" => 26, "location" => "Stamford, CT" }</xmp></p>
-		<p>For arrays, you can call on an object by integer-indexing starting with 0.  So, that means for our array example, <xmp>array[0]</xmp> would be equal to 1, <xmp>array[1]</xmp> would be equal to 2, <xmp>array[4]</xmp> would be equal to 5 and so forth.  Notice, <xmp>array[5]</xmp> would be equal to nil because there is no value in the 5th index (there is no 6th object).</p>
-		<p>For hashes, you can call on the value by calling the keys.  So, that means for our hash example, <xmp>hash["name"]</xmp> would be equal to "Stella", <xmp>hash["age"]</xmp> would be equal to 26, etc.</p>
+		<p>Example of an Array:<br><pre>array = [1,2,3,4,5]</pre></p>
+		<p>Example of a Hash:<br><pre>hash = { "name" => "Stella", "age" => 26, "location" => "Stamford, CT" }</pre></p>
+		<p>For arrays, you can call on an object by integer-indexing starting with 0.  So, that means for our array example, <pre>array[0]</pre> would be equal to 1, <pre>array[1]</pre> would be equal to 2, <pre>array[4]</pre> would be equal to 5 and so forth.  Notice, <pre>array[5]</pre> would be equal to nil because there is no value in the 5th index (there is no 6th object).</p>
+		<p>For hashes, you can call on the value by calling the keys.  So, that means for our hash example, <pre>hash["name"]</pre> would be equal to "Stella", <pre>hash["age"]</pre> would be equal to 26, etc.</p>
 		<p>So how do you know when to use an array or a hash?  Well, generally would want to use an array if indexing the objects through ordered integers is fine.  However, if you want specific keys of different types to your values, a hash would be more efficient.</p>
 	</section>
 	<footer>
