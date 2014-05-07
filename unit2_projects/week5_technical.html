@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stella's DBC Website</title>
+	<link rel="stylesheet" href="../unit1_projects/stylesheets/main.css">
+</head>
+<body>
+	<header>
+		<h2>STELLA'S DBC WORLD</h2>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="http://stellajkimm.github.io/index.html">HOME</a></li>
+			<li><a href="http://stellajkimm.github.io/aboutme.html">ABOUT ME</a></li>
+			<li><a href="http://stellajkimm.github.io/dbcwork.html">DBC WORK</a></li>
+			<li><a href="http://stellajkimm.github.io/blog_template.html">BLOG</a></li>
+		</ul>
+	</nav>
+	<aside>
+		<h1 class = "weekheader">Technical</h1>
+		<h1><a href="http://stellajkimm.github.io/unit1_projects/week2_technical.html">Week 2</a></h1>
+		<h1><a href="http://stellajkimm.github.io/unit1_projects/week3_technical.html">Week 3</a></h1>
+		<h1><a href="http://stellajkimm.github.io/unit2_projects/week4_technical.html">Week 4</a></h1>
+		<h1 class = "weekheader">Cultural</h1>
+		<h1><a href="http://stellajkimm.github.io/unit1_projects/week2_cultural_blog.html">Week 2</a></h1>
+		<h1><a href="http://stellajkimm.github.io/unit1_projects/week3_cultural_blog.html">Week 3</a></h1>
+		<h1><a href="http://stellajkimm.github.io/unit2_projects/week4_cultural_blog.html">Week 4</a></h1>
+	</aside>
+	<section>
+		<h3>Week 4:  Arrays vs. Hashes</h3>
+		<p>In Ruby, there are two ways to store and organize collections of information:  Arrays and Hashes.  Arrays are collections of any type of object (integer, string, floating point number, etc) and are ordered and indexed by integers.  Hashes are also collections of any type of objects but are indexed by arbitrary keys.</p>
+		<p>Example of an Array:<br><pre>array = [1,2,3,4,5]</pre></p>
+		<p>Example of a Hash:<br><pre>hash = { "name" => "Stella", "age" => 26, "location" => "Stamford, CT" }</pre></p>
+		<p>For arrays, you can call on an object by integer-indexing starting with 0.  So, that means for our array example, <pre>array[0]</pre> would be equal to 1, <pre>array[1]</pre> would be equal to 2, <pre>array[4]</pre> would be equal to 5 and so forth.  Notice, <pre>array[5]</pre> would be equal to nil because there is no value in the 5th index (there is no 6th object).</p>
+		<p>For hashes, you can call on the value by calling the keys.  So, that means for our hash example, <pre>hash["name"]</pre> would be equal to "Stella", <pre>hash["age"]</pre> would be equal to 26, etc.</p>
+		<p>So how do you know when to use an array or a hash?  Well, generally would want to use an array if indexing the objects through ordered integers is fine.  However, if you want specific keys of different types to your values, a hash would be more efficient.</p>
+	</section>
+	<footer>
+		<h5>THANK YOU FOR VISITING!</h5>
+	</footer>
+
+</body>
+</html>
