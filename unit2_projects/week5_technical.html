@@ -30,8 +30,18 @@
 	</aside>
 	<section>
 		<h3>Week 5:  Classes</h3>
-		<p>When you are writing code for a class, you are basically writing a blueprint from which individual objects can be created.  So, for example, if you are writing a code for the class "Account", you can create different objects (different accounts) that follow the blueprint.  The blueprint can consist of instance variables (things the object knows about itself) and methods (things the object can do).  Let's start off with this example:</p>
-		<p><img src="full.png"/><p>
+		<p>When you are writing code for a class, you are basically writing a blueprint from which individual objects can be created.  So for example, if you are writing a code for the class "Account", you can create different objects (different accounts) that follow the blueprint.  The blueprint can consist of instance variables (things the object knows about itself) and methods (things the object can do).  Let's start off with this example:</p>
+		<img src="full.png"/>
+		<p>As you can see, even though this is quite a simple example, there are a lot of things going on here.  Let's break it down from the top to bottom.</p>
+		<img src="initialize.png"/>
+		<p>In the beginning, after defining your class, you must have a initializing method that takes in the instance variables that are important to this class.  In this case, it is <scan class = purple>@name</scan> and <scan class = purple>@balance</scan>.  Notice, balance is already set equal to 100 by default, but you can always change it by putting in another value for that variable when calling <scan class = purple>Account.new</scan>.  The <scan class = purple>attr_reader</scan> is written before the initializing method so that these instance methods can be read anywhere.</p>
+		<img src="method.png"/>
+		<p>After initializing, you can write different methods that the class can do.  In this example, this class can call the method <scan class = purple>display_balance</scan> and enter a parameter which is the <scan class = purple>pin_number</scan> that puts the balance in the account if the pin number entered is equal to the pin, or call the method <scan class = purple>pin_error</scan> if it is an incorrect pin.  Well, how do we know what the pin is?  All of this information is in the private section of the class blueprint:</p>
+		<img src="private.png"/>
+		<p>As you can see, there are private methods listed under the word <scan class = purple>private</scan> named <scan class = purple>pin</scan> and <scan class = purple>pin_error</scan>.  Inside <scan class = purple>pin</scan>, there is an instance variable called <scan class = purple>@pin</scan> that is used in the method <scan class = purple>display_balance</scan>.  Notice, this instance variable is not listed in <scan class = purple>attr_reader</scan> because it is private and cannot be read elsewhere.  Although these methods are private, they can still be used by methods within the class.  However, the only difference is that they cannot be called outside of the blueprint.  To create a new account, simply type in:</p>
+		<img src="newaccount.png"/>
+		<p>Here, we created a new variable <scan class = purple>acc</scan> that is an Account class object with an arbitrary name of the account as <scan class = purple>main</scan>.  To call the public method, we just type in the variable and method along with the parameter which is the pin number.  What do you suppose would be the outcome of this command?!</p>
+		<p>I hope you learned a little more about how to make Ruby classes classy!  That's class for ya!</p>
 	</section>
 	<footer>
 		<h5>THANK YOU FOR VISITING!</h5>
