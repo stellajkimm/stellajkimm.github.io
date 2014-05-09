@@ -3,13 +3,13 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+<!-- adding changes -->
 
 #### branch
-<!-- Your defnition here -->
+<!-- create copy (branch) of code they can make separate commits to -->
 
 #### checkout
-<!-- Your defnition here -->
+<!-- files can be changed back to how they were at the last commit -->
 
 #### clone
 <!-- Your defnition here -->
@@ -21,10 +21,10 @@ Define the following commands and describe how they work/what they do.
 <!-- Your defnition here -->
 
 #### log
-<!-- Your defnition here -->
+<!-- show history -->
 
 #### merge
-<!-- Your defnition here -->
+<!-- merging changes from branch to master branch -->
 
 #### pull
 <!-- Your defnition here -->
@@ -39,7 +39,7 @@ Define the following commands and describe how they work/what they do.
 <!-- Your defnition here -->
 
 #### status
-
+<!-- checking the status of the git -->
 
 ## Release 4: Git Workflow
 
