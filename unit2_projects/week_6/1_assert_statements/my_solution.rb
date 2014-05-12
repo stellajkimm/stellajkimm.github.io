@@ -85,10 +85,10 @@ card = CreditCard.new(8021038947182721)
 assert { card.check_card == false }
 
 card2 = CreditCard.new(4408041234567893)
-assert { card.check_card == true }
+assert { card2.check_card == true }
 
 card3 = CreditCard.new(4408041234567892)
-assert { card2.check_card == false }
+assert { card3.check_card == false }
 
 
 
