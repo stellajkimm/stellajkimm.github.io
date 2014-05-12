@@ -3,7 +3,7 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- adding changes to git -->
+<!-- adding changes to the git -->
 
 #### branch
 <!-- create copy (branch) of code they can make separate commits to -->
