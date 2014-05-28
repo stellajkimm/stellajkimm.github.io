@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stella's DBC Website</title>
+    <link rel="stylesheet" href="technical.css">
+<!--    <link rel="stylesheet" href="../unit1_projects/stylesheets/main2.css">-->
+</head>  
+<body>
+<nav>
+	<a href="../index2.html#home">home</a> / <a href="../index2.html#aboutme">about me</a> / <a href="../index2.html#techblog">tech blog</a> / <a href="../index2.html#cultblog">cultural blog</a> / <a href="../index2.html#contactme">contact</a>
+</nav>
+<div>
+    <h1>Week 2: Inline vs. Inline Block</h1>
+		<p><strong>Inline</strong>, <strong>Block</strong>, and <strong>Inline-Block</strong> are different ways one can display elements on a page.  By default, elements on an html page are displayed in a "block" format.</p>
+		<p>When elements are displayed in a <strong>Block</strong> format, each element is thought of as a "block" and naturally stack on top of eachother like so:</p>
+		<img class="block" src="images/green_square.jpg"/>
+		<img class="block" src="images/blue_square.jpg"/>
+		<div class="code">
+			<strong>html:</strong><br>
+			<xmp><img class="block" src="images/green_square.jpg"/></xmp>
+			<xmp><img class="block" src="images/blue_square.jpg"/></xmp></p>
+			<strong>css:</strong><br>
+			<xmp>.block {</xmp><xmp>     display: block;</xmp><xmp>     width: 200px;</xmp><xmp>}</xmp>
+		</div>
+		<p>When elements are displayed in an <strong>Inline</strong> format, they sit side-by-side like so:</p>
+		<img class="inline" src="images/green_square.jpg"/>
+		<img class="inline" src="images/blue_square.jpg"/>	
+		<div class="code">
+			<strong>html:</strong><br>
+			<xmp><img class="block" src="images/green_square.jpg"/></xmp>
+			<xmp><img class="block" src="images/blue_square.jpg"/></xmp></p>
+			<strong>css:</strong><br>
+			<xmp>.block {</xmp><xmp>     display: inline;</xmp><xmp>     width: 200px;</xmp><xmp>}</xmp>
+		</div>
+		<p>This all works out well and makes sense, but what if the element concerned isn't a block element (ie. a paragraph)?  Lets find out.  Two paragraphs in the <strong>block format</strong> looks like this:</p>
+		<p class="green block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cuius quidem, quoniam Stoicus fuit, sententia condemnata mihi videtur esse inanitas ista verborum. Quid igitur, inquit, eos responsuros putas?</p>
+		<p class="yellow block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cuius quidem, quoniam Stoicus fuit, sententia condemnata mihi videtur esse inanitas ista verborum. Quid igitur, inquit, eos responsuros putas?</p>
+		<div class="code">
+			<strong>html:</strong><br>
+			<xmp><p class="green">Lorem ipsum...</p></xmp>
+			<xmp><p class="yellow">Lorem ipsum...</p></xmp></p>
+			<strong>css:</strong><br>
+			<xmp>.green {</xmp><xmp>     background-color: green;</xmp><xmp>}</xmp>
+			<xmp>.yellow {</xmp><xmp>     background-color: yellow;</xmp><xmp>}</xmp>
+			<xmp>p {</xmp><xmp>     display: block;</xmp><xmp>     width: 200px;</xmp><xmp>}</xmp>
+		</div>
+		<p>This is not a surprise.  The paragraphs act like blocks and stack on top of eachother.  What happens when we make them <strong>Inline</strong>?
+		<p class="green inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cuius quidem, quoniam Stoicus fuit, sententia condemnata mihi videtur esse inanitas ista verborum. Quid igitur, inquit, eos responsuros putas?</p>
+		<p class="yellow inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cuius quidem, quoniam Stoicus fuit, sententia condemnata mihi videtur esse inanitas ista verborum. Quid igitur, inquit, eos responsuros putas?</p>
+		<div class="code">
+			<strong>css:</strong><br>
+			<xmp>p {</xmp><xmp>     display: inline;</xmp><xmp>     width: 200px;</xmp><xmp>}</xmp>
+		</div>
+		<p>Woah woah woah.  Why aren't they next to eachother in two different rectangles?  The reason why is because paragraphs are not block elements so they do not act like blocks.  So how do we put the two paragraphs side-by-side then?  That is where <strong>Inline-Block</strong> comes in.  <strong>Inline-Block</strong> is a fusion of <strong>Inline</strong> and <strong>Block</strong> when the element concerned isn't exactly shaped as a "block".  <strong>Inline-Block</strong> elements are placed as an inline element but behave like block elements.</p>
+		<p>This is how it looks when non-block elements are displayed <strong>Inline-Block</strong>:</p>
+		<p class="green inline_block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cuius quidem, quoniam Stoicus fuit, sententia condemnata mihi videtur esse inanitas ista verborum. Quid igitur, inquit, eos responsuros putas?</p>
+		<p class="yellow inline_block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cuius quidem, quoniam Stoicus fuit, sententia condemnata mihi videtur esse inanitas ista verborum. Quid igitur, inquit, eos responsuros putas?</p>
+		<div class="code">
+			<strong>css:</strong><br>
+			<xmp>p {</xmp><xmp>     display: inline-block;</xmp><xmp>     width: 200px;</xmp><xmp>}</xmp>
+		</div>
+		<p>So there you have it!  I hope this clarifies <strong>Inline</strong>, <strong>Block</strong>, and <strong>Inline-Block</strong> for you!</p>
+</div>
+</body>
+</html>

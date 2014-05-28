@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stella's DBC Website</title>
+    <link rel="stylesheet" href="technical.css">
+<!--    <link rel="stylesheet" href="../unit1_projects/stylesheets/main2.css">-->
+</head>  
+<body>
+<nav>
+	<a href="../index2.html#home">home</a> / <a href="../index2.html#aboutme">about me</a> / <a href="../index2.html#techblog">tech blog</a> / <a href="../index2.html#cultblog">cultural blog</a> / <a href="../index2.html#contactme">contact</a>
+</nav>
+<div>
+    <h1>Week 2: Affirming Values</h1>
+        <p><strong>Accomplishment, Close relationships, Having a family, Meaningful work, Personal development.</strong></p>
+        <p>All of the values listed in the exercise were extremely important but these few that I've chose have been especially important to me for my happiness.  I believe life is about close relationships, having a family (whether it would be immediate family, extended family, or close friends), doing meaningful work which leads to accomplishment and personal development.  But the thing that truly makes me happy is having a family (which is essentially the same as thing as close relationships).  This is important to me because what is life without love?  And what is money for if you can't spend it on the ones you love.  And what is a job really for besides providing for your family (... well, personal development and meaningful work, duh.  hahaha).  But as much as I will love my job as a developer and as much as I am doing it for myself, I must say that I am really doing it for my family, my future family, and anyone else I really care about.  I live up to these values every day of my life and think about them every day.</p>
+        <p>The last topic someone asked me for advice on was about a difficult relationship that she did not know if she wanted to keep or not.  When you get older, you realize that there are some people who want to be in your life, who need to be in your life, and who should be in your life.  It is your decision on who these people are.</p>
+</div>
+</body>
+</html>
