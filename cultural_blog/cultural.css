@@ -8,7 +8,7 @@ body{
     line-height:75px;
 	color:#ffffff;
     text-align:center;
-    font-family: daisy;
+    font-family: daisy, sans-serif;
     background-image: url('http://hdwallphotos.com/wp-content/uploads/2014/03/Beautiful-Forest-Wallpaper-High-Definition.jpg');
 }
 
@@ -20,7 +20,7 @@ nav {
 	z-index: 1;
 	font-size: .90em;
 	height: 10%;
-	font-family: Heidi;
+	font-family: Heidi, sans-serif;
 }
 
 div {
@@ -36,11 +36,11 @@ div {
 }
 
 .soymilk {
-	font-family: soymilk;
+	font-family: soymilk, serif;
 }
 
 .heidi {
-	font-family: heidi;
+	font-family: Heidi, sans-serif;
 }
 .squggle {
 	height: 10%;

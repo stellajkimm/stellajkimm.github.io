@@ -38,11 +38,11 @@ nav {
 }
 
 .soymilk {
-	font-family: soymilk;
+	font-family: soymilk, serif;
 }
 
 .heidi {
-	font-family: heidi;
+	font-family: Heidi, sans-serif;
 }
 .squggle {
 	height: 10%;
@@ -78,7 +78,7 @@ body{
     line-height:75px;
 	color:#ffffff;
     text-align:center;
-    font-family: Heidi;
+    font-family: Heidi, sans-serif;
 }
 section {
 	background:#9ed100;
