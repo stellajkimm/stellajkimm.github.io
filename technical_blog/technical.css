@@ -9,8 +9,9 @@ body{
 	color:#ffffff;
     text-align:center;
     font-family: daisy, sans-serif;
-    background-image: url('http://www.wallpaper1080hd.com/Picture/allimg/c100911/12T1LY930060-53523.jpg');
+    background-image: url('../unit1_projects/images/rocks.jpg');
     background-attachment: fixed;
+    background-size: cover;
 }
 
 nav {

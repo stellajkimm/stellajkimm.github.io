@@ -9,8 +9,9 @@ body{
 	color:#ffffff;
     text-align:center;
     font-family: daisy, sans-serif;
-    background-image: url('http://hdwallphotos.com/wp-content/uploads/2014/03/Beautiful-Forest-Wallpaper-High-Definition.jpg');
-	background-attachment: fixed;
+    background-image: url('../unit1_projects/images/trees.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 nav {
