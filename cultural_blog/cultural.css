@@ -10,10 +10,12 @@ body{
     text-align:center;
     font-family: daisy, sans-serif;
     background-image: url('http://hdwallphotos.com/wp-content/uploads/2014/03/Beautiful-Forest-Wallpaper-High-Definition.jpg');
+	background-attachment: fixed;
 }
 
 nav {
-	position: fixed top;
+	position: fixed;
+	top: 0px;
 	background-color: white;
 	width: 100%;
 	color: black;
@@ -25,7 +27,7 @@ nav {
 
 div {
 	width: 70%;
-	margin: 5% 0% 10% 15%;
+	margin: 10% 0% 10% 15%;
 	padding: 10px;
 	background-color: rgba(0,0,0,0.5);
 	line-height: 30px;
