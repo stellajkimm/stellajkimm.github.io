@@ -35,8 +35,10 @@ nav {
 }
 
 table {
-	width: 66%;
+	width: 80%;
 	margin: 2% 0% 0% 17%;
+	text-align: left;
+	size: 0.3em;
 }
 
 td {
