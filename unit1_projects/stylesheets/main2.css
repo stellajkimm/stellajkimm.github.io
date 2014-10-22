@@ -78,7 +78,7 @@ a {
 /* content centering styles */
 .content-b {
 	padding-top: 2%;
-    position:relative;
+  position:relative;
 	vertical-align:middle;
 	text-align:center;
 	font-size: 110px;
@@ -89,7 +89,7 @@ body{
     margin:0;
     font-size:28px;
     line-height:70px;
-	color:#ffffff;
+		color:#ffffff;
     text-align:center;
     font-family: Heidi, sans-serif;
 }
